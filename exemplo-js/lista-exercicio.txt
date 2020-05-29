@@ -1,0 +1,25 @@
+Realizar COMMITS e dar PUSH desse arquivo dentro do projeto exemplo-js
+
+Crie um arquivo HTML com seu nome e rm Ex: alexandre45678.html e outro arquivo JS com mesmo nome, realize a indicação no html.
+
+****
+Em um bloco JS no arquivo html faça os exercícios abaixo.
+
+No Console escreva:
+(1) Faça uma mensagem de 'Olá Mundo'.... Exemplo: 'Olá Mundo'
+(2) Faça uma saída de soma de 2 inteiros, ex: Resultado (2 + 3).
+(3) Crie(1 div, 1 p e 1 span)atribua IDs a esses elementos, adicione algum texto dentro destes elementos e exiba a quantidade de letras que possuem cada texto inserido nos elementos html. utilize as funçoes do DOM.
+
+**************
+DESAFIOS
+**************
+Em um arquivo JS externo ou em um bloco faça os exercícios abaixo.
+(4) Agora que você já sabe utilizar o evento 'click', aprenda a usar o 'mouseover'.
+Na pasta imagem existe duas imagens utilize as para exercitar sua imaginação, ao passar o mouse em cima da 'lampada.gif' altere ela para 'lampada-on.gif'.
+A ideia aqui é adicionar uma div com uma imagem a da lampada.gif e ao passar o mouse em cima, voc6e deve trocar o conteúdo do src do elemento img pelo valor da outra imagem.
+
+(5) Faça um comentário de uma linha no JavaScript no exercicio anterior
+(6) Crie dois botões no HTML chamados: 'Verde', ,'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente. Determinar IDs para estes elementos.
+(7)Faça um comentário de varias linhas no JavaScript do exercicio anterior.
+(8)Crie uma div vazia cujo o id dela é 'resultado' Insira via JavaScript assim que a tela carregar o seguinte texto: 'Esse texto foi inserido pelo JavaScript...'
+(9) Agora crie um botão que ao ser clicado faça a mesma ação do exercício anterior.

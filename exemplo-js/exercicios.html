@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="pt-br" dir="ltr">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+   <title>EXEMPLO-JS</title>
+ </head>
+ <body>
+   <div id="container">
+     <header>
+       <nav>
+         <ul class="menu">
+           <li><a href="index.html">Início</a></li>
+           <li><a href="exercicios.html">Exercícios</a></li>
+           <li><a href="desafios.html">Desafios</a></li>
+           
+         </ul>
+       </nav>
+     </header>
+     <!--Exer 01-->
+     <script type="text/javascript">
+          console.log("Olá Mundo!");
+     </script>
+      <!--Exer 02-->
+     <script type="text/javascript">
+        var num1 = 30;
+        var num2 = 170;
+        var total = (num1 + num2)
+        console.log("A soma é: " + total);
+     </script>
+      <!--Exer 03-->
+     <script type="text/javascript">
+        function letra1(){
+          var div1 = document.getElementById("element1")
+          console.log("A quantidade de letras é: " + div1.innerHTML.length);
+        }
+        function letra2(){
+          var div2 = document.getElementById("element2")
+          console.log("A quantidade de letras é: " + div2.innerHTML.length);
+        }
+        function letra3(){
+          var div3 = document.getElementById("element3")
+          console.log("A quantidade de letras é: " + div3.innerHTML.length);
+        }
+     </script>
+     <div id="element1" onclick="letra1(this)">Teste</div>
+     <p id= "element2" onclick="letra2(this)">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+     <span id= "element3" onclick="letra3(this)"></spanid>Bruno usando javascript</span>
+
+     </div>
+   </div>
+ </body>
+</html>

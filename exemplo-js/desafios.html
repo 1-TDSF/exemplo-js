@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="pt-br" dir="ltr">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+   <script type="text/javascript" src="./js/desafios.js"></script>
+
+   <title>EXEMPLO-JS</title>
+ </head>
+ <body onload="insereDiv()">
+   <div id="container">
+     <header>
+       <nav>
+         <ul class="menu">
+           <li><a href="index.html">Início</a></li>
+           <li><a href="exercicios.html">Exercícios</a></li>
+           <li><a href="desafios.html">Desafios</a></li>
+         </ul>
+       </nav>
+     </header>
+     <hr>
+     <h1>Lâmpada que acende e apaga</h1>
+     <div>
+       <img id="img-lampada" src="./img/lampada.gif" alt="Lâmpada" onmouseover="acender(this)" onmouseout="apagar(this)">
+     </div>
+     <hr>
+     <h1>Botão que troca de cor ao clicar</h1>
+     <div>
+       <button type="button" id="btn-verde" name="verde" onclick="cor(this)">Verde</button>
+     </div>
+     <div>
+      <button type="button" id="btn-vermelho" name="vermelho" onclick="cor(this)">Vermelho</button>
+    </div>
+    <hr>
+    <h1>Incluindo Elementos</h1>
+    <div id="resultado"></div>
+    <div>
+      <button type="button" onclick="insereDiv()">Inserir Exercício 8</button>
+    </div>
+    <div>
+      <button type="button" onclick="insereDiv2()">Inserir Exercício 9</button>
+    </div>
+   </div>
+ </body>
+</html>
