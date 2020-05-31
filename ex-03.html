@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+    <title>Ex3</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="ex-01.html">Exemplo-1</a></li>
+            <li><a href="ex-02.html">Exemplo-2</a></li>
+            <li><a href="ex-03.html">Exemplo-3</a></li>
+            <li><a href="desafio1.html">desafio1</a></li>
+            <li><a href="larissah85169.html">Larissah</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script type="text/javascript">
+      function palavra1(){
+        var d1 = document.getElementById('nome1');
+        console.log("A quantidade de letras do texto é: " + d1.innerHTML.length);
+      }
+      function palavra2(){
+        var d2 = document.getElementById('nome2');
+        console.log("A quantidade de letras do texto é: " + d2.innerHTML.length);
+      }
+      function palavra3(){
+        var d3 = document.getElementById('nome3');
+        console.log("A quantidade de letras do texto é: " + d3.innerHTML.length);
+      }
+    </script>
+
+    <div>
+      <div id="nome1" onclick="palavra1(this)">Larissah</div>
+      <p id="nome2" onclick="palavra2(this)">Shakira Isabel Mebarak Ripoll (Barranquilla, 2 de fevereiro de 1977) é uma cantora, compositora, dançarina e instrumentista colombiana, além de atuar regularmente como produtora, empresária, coreógrafa, atriz, e modelo. Shakira é também filantropa e embaixadora da Boa Vontade da UNICEF colombiana</p>
+      <span id="nome3" onclick="palavra3(this)">SILVA</span>
+    </div>
+    </body>
+</html>

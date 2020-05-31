@@ -4,13 +4,16 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+   <script src="js/desafio1.js" charset="utf-8"></script>
    <title>EXEMPLO-JS</title>
  </head>
- <body>
+ <body onload = "teste()">
+
    <div id="container">
      <header>
+
        <nav>
-         <ul class="menu">
+        <ul class="menu">
            <li><a href="index.html">Início</a></li>
            <li><a href="ex-01.html">Exemplo-1</a></li>
            <li><a href="ex-02.html">Exemplo-2</a></li>
@@ -19,10 +22,20 @@
            <li><a href="larissah85169.html">Larissah</a></li>
          </ul>
        </nav>
-     </header>
-     <div class="conteudo">
 
+     </header>
+    <div>
+       <img src="img/lampada-on.gif" onmouseover="acende(this)" onmouseout="apagada(this)">
      </div>
+     <button type="button" name="Verde" onclick="cores(this)">Verde</button>
+     <button type="button" name="Vermelho" onclick="cores(this)">Vermelho</button>
    </div>
+
+   <div id="resultado"></div>
+
+   <div>
+     <button type="button" onclick="teste2()">Inserir</button>
+   </div>
+
  </body>
 </html>
