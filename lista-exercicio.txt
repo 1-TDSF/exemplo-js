@@ -24,3 +24,4 @@ A ideia aqui é adicionar uma div com uma imagem a da lampada.gif e ao passar o 
 (8)Crie uma div vazia cujo o id dela é 'resultado' Insira via JavaScript assim que a tela carregar o seguinte texto: 'Esse texto foi inserido pelo JavaScript...'
 (9) Agora crie um botão que ao ser clicado faça a mesma ação do exercício anterior.
 (10) Estou fazendo o teste do Git no VSCODE
+(11)
