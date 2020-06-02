@@ -1,47 +1,50 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    font-size: 20px;
-    padding: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding: 2em;
 }
 
-button{
-    margin: 5px;
+h1, h2, h3{
+  margin: 20px 10px;
 }
 
-.menu ul{
-    padding: 10px;
-    font-size: 22px;
-}
-.menu ul li{ 
-    display: inline; 
-}
-.menu ul li a{
-    text-decoration: none;
-    color: black;
+.container{
+  margin: auto;
+  background-color: #f0eec9;
+  font-size: 20px;
+  font-family: 'Consolas', sans-serif;
+  height: 900px;
 }
 
-.menu ul li a:hover{
-    color: red
+header{
+  background-color: #091566;
+  padding: 20px 0;
 }
 
-.console div{
-    margin: 2%;
-    border: 3px dashed red
+.menu li{
+  list-style: none;
+  display: inline;
 }
 
-.console p{
-    margin: 2%;
-    border: 3px dashed black
+.menu li a{
+  text-decoration: none;
+  color: #111010;
+  background-color: #8cbba9;
+  border-radius: 4px;
+  font-size: 24px;
+  padding: 20px 0;
 }
 
-.console span{
-    margin: 2%;
-    border: 3px dashed blue
+.menu li a:HOVER{
+  color: #8cbba9;
+  background-color: #111010;
 }
